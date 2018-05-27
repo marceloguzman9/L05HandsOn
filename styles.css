@@ -1,13 +1,25 @@
 
 
 .header {
-    font-size: 50px;
+    color: orange;
+    background-color: teal;
+    font-family: Cursive;
+    font-size: 40px;
+    border: 10px solid;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+  }
 
-    text-align: center;
-  
+  .image-grid  {
+  background-color: beige;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  align-items: center;
 }
-
- p {
-    font-family: cursive;
     
- }
+   
+  
